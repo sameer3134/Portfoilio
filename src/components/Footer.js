@@ -27,7 +27,7 @@ function Footer() {
           </h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Junior Developer</h3>
+          <h3>Full Stack Developer</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">

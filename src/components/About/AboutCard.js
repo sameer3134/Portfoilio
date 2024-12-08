@@ -11,12 +11,7 @@ function AboutCard() {
             Hi Everyone, my name is <span className="purple">Mohd Sameer </span>
             from <span className="purple"> Kanpur, India</span>.
             <br />
-            I'm a junior developer. I am pursuing my Bachelors from HBTU, Kanpur (2020-2024). My current GPA is 7.62 out of 10. My end goal is to become a Full-Stack engineer.
-            <br />
-            <br />
-            I share my time to explore India,
-            I like to get up early and start the day surfing, exercising or just taking a walk. Once back home and full of oxygen, I like to stretch, have a cup of coffee and start working :)
-            <br />
+            I am a Software Developer. Currently working at Reshita since February 2024, I specialize in developing and optimizing user interfaces using ReactJS, Redux, and TailwindCSS for large-scale projects. I have integrated features like Razorpay subscriptions and WhatsApp for seamless payments and communication. My focus is on crafting intuitive experiences, ensuring performance, and adhering to best practices to deliver efficient, scalable solutions.
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
