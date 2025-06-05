@@ -2,11 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.jpg";
+import kashika from "../../Assets/Projects/kashika.png";
 import recipe from "../../Assets/Projects/recipe.png";
 import template from "../../Assets/Projects/template.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
+import docaid from "../../Assets/Projects/docaid.png";
+import romanelli from "../../Assets/romanelli.png"
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -23,6 +25,41 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={kashika}
+              isBlog={false}
+              title="Shopping-Site"
+              description="In this project, I used React, TypeScript, Tailwind CSS, AWS. Developed an e-commerce platform featuring OAuth-based user authentication, real-time inventory management, and
+order processing, powered by Firebase for backend services and secure hosting."
+              ghLink="https://github.com/sameer3134/Ecommerce"
+              demoLink="https://kashikatheshiningone.com/"
+            />
+          </Col>
+
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={romanelli}
+              isBlog={false}
+              title="Real Estate Platform Development"
+              description="In this project, I used React , Tailwind CSS. Developed a responsive real estate platform based on detailed Figma designs, featuring dynamic property listings,
+modern UI elements, and seamless third-party API integration"
+              ghLink="https://github.com/sameer3134/romanelliGroup"
+              demoLink="https://romanelligroup.onrender.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={docaid}
+              isBlog={false}
+              title="Clinic Management System"
+              description="Built a scalable appointment and billing platform using ReactJS, Redux, and TailwindCSS, improving development speed and UI consistency by 30%.
+Integrated Razorpay for subscription payments and WhatsApp for appointment confirmations, reducing checkout failures by 40% and boosting user engagement."
+           ghLink="https://github.com/sameer31345/doc-aid"
+               demoLink="https://doc-aid.in/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={chatify}
               isBlog={false}
               title="Packet Sniffing"
@@ -35,28 +72,9 @@ function Projects() {
 
           
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Shopping-Site"
-              description="In this project, I used Reactjs , Nodejs and Expressjs. It has two pages in which one of  them is Cart page. if product is selected then i put it in cart.We can apply filter on diifferent basis. 
-              We use nodejs library faker to extract different data for product."
-              ghLink="https://github.com/sameer3134/Shopping-site"
-              demoLink="https://msshopping.netlify.app/"
-            />
-          </Col>
+         
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Website Template"
-              description="Its a simple website in which we design a static web-template by using Reactjs and for css we use tailwind-css"
-              ghLink="https://github.com/sameer3134/WebDesignTemplate"
-               demoLink="https://sameer3134.github.io/WebDesignTemplate/"
-            />
-          </Col>
+          
        
        
        

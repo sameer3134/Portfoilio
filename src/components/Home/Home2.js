@@ -25,7 +25,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Java, Javascript, HTML and CSS. </b>
+                <b className="purple"> Java, ReactJs , Typescript , Tailwind CSS</b>
               </i>
               <br />
               <br />
